@@ -1,22 +1,15 @@
 [project]
 name = "langgraphcourse"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "Celal Okan Uruçay",email = "celalokanurucay@gmail.com"}
-]
-requires-python = ">=3.12,<3.13"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
 dependencies = [
-    "langchain (>=1.2.9,<2.0.0)",
-    "langchain-openai (>=1.1.7,<2.0.0)",
-    "langchain-tavily (>=0.2.17,<0.3.0)",
-    "langgraph (>=1.0.8,<2.0.0)",
-    "python-dotenv (>=1.2.1,<2.0.0)",
-    "black (>=26.1.0,<27.0.0)",
-    "isort (>=7.0.0,<8.0.0)"
+    "black>=26.1.0",
+    "isort>=7.0.0",
+    "langchain>=1.2.9",
+    "langchain-openai>=1.1.7",
+    "langchain-tavily>=0.2.17",
+    "langgraph>=1.0.8",
+    "python-dotenv>=1.2.1",
 ]
-
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
